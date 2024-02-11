@@ -45,12 +45,12 @@ const Footer = styled.footer`
     align-items: center;
 
     ion-icon {
-        font-size: 30px;
+      font-size: 30px;
     }
 
     p {
-        font-size: 20px;
-        font-family: "Shantell Sans", cursive;
+      font-size: 20px;
+      font-family: "Shantell Sans", cursive;
     }
   }
 `;

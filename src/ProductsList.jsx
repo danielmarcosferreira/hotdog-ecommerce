@@ -20,6 +20,7 @@ const List = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 10em;
 
   .item {
     background-color: lightgray;
