@@ -17,16 +17,30 @@ function ProductsList() {
 
 const List = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 
   .item {
+    background-color: lightgray;
+    width: 15em;
+    height: 15em;
+    border-radius: 1em;
+    cursor: pointer;
+    margin: 1em;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
-    width: 200px;
-    height: 200px;
+
+    h3 {
+      font-family: "Shantell Sans", cursive;
+      font-size: 2em;
+      font-weight: bold;
+      color: black;
+      padding-bottom: 0.4em;
+    }
 
     img {
       width: 80%;

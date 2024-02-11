@@ -4,16 +4,20 @@ import ProductsList from "./ProductsList";
 function BodyApp() {
   return (
     <Body>
-      <h1>Qual será a pedida de hoje?</h1>
+      <h1>QUAL SERÁ A PEDIDA DE HOJE ?</h1>
       <ProductsList />
     </Body>
   );
 }
 
 const Body = styled.body`
-    background-color: darkgray;
+padding-top: 6em;
+    /* background-color: darkgray; */
 
     h1 {
+        background-color: lightgray;
+        font-family: "Shantell Sans", cursive;
+        width: 90%;
         text-align: center;
         font-size: 1.2em;
         font-weight: bold;

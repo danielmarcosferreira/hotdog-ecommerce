@@ -17,13 +17,15 @@ const Topo = styled.header`
   height: 6em;
   padding: 0 1em;
   border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   img {
-    width: 5.5em;
+    width: 4.5em;
     padding: 0.1em;
     border-radius: 50%;
   }
@@ -31,7 +33,7 @@ const Topo = styled.header`
   h1 {
     font-family: "Shantell Sans", cursive;
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   p {
